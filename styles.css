@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+/* =============SIDEBAR=============== */
+.sidebar {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: aquamarine;
+}
+
+/* ===============MAIN================ */
+.main-content {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/* HEADER */
+.header {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-template-rows: 1fr 1fr;
+    background-color: aliceblue;
+}
+
+.top-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1 / 2;
+}
+
+.mid-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2 / 3;
+}
+
+.left-mid-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-username {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.right-mid-header ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+/* =============PROJECT DASHBOARD========== */
+.project-container {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-template-columns: 3fr 1fr;
+    background-color: rgb(146, 146, 110);
+}
