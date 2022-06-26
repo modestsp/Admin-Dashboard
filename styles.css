@@ -175,7 +175,6 @@ ul {
     grid-template-columns: 3fr 1fr;
     background-color: #e0e7ff;
     padding: 2rem 2rem 4rem 1rem;
-    border: 1px solid blue;
     gap: 0 20px;
     font-family: 'Poppins', sans-serif;
 }
